@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ================================================ Start:: font family =========================================== */
+/* ================================================================================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: 'geomanist-reg';
+  src: local('geomanist-reg'), url('/fonts/5f8764ef5e2158274613afb4_Geomanist-Regular.otf') format('otf');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'geomanist-bold';
+  src: local('geomanist-bold'), url('/fonts/5f8764efb1c5850618211b4d_Geomanist-Bold.otf') format('otf');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+
+/* ==================================================== End:: font family =========================================== */
+/* ================================================================================================================== */

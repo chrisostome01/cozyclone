@@ -1,19 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
 import Button from "../../ui/Button";
-import Wrapper from "../wrapper/Wrapper";
+import Wrapper from "../../ui/Wrapper";
 
 export default function Hero(){
     return (
-        <div className="bg-gradient-hero min-h-max">
-            <Wrapper className={""}>
-                <div className="flex flex-col md:flex-row">
-                    <div className="mb-[30px]">
-                        <h1 className="mt-[80px] py-[10px] mb-[20px] leading-[1.1em] bg-[#d4ac8e] bg-hero text-[80px] font-bold bg-clip-text text-transparent ">
+        <div className="lg:h-[1024px]  min-h-[720px] overflow-hidden bg-gradient-hero ">
+            <Wrapper className={"h-full relative"}>
+                <div className="flex flex-col md:flex-row mt-[48px] mb-[128px] px-2 lg:mb-0 ">
+                    <div className="mb-[30px] lg:w-1/2  lg:mb-0 lg:pr-[60px]">
+                        <h1 className="mt-[80px] py-[10px] mb-[20px] font-fraunces144 font-black leading-[1.1em] bg-[#d4ac8e] bg-hero text-[60px] md:text-[80px] bg-clip-text text-transparent ">
                             Your design team for the cost of a salary.
                         </h1>
-                        <span className="my-[20px] py-[10px] bg-hero-1 bg-[#e4ded5]  bg-clip-text text-transparent text-[39px] font-semibold  ">
+                        <div className="my-[20px] leading-[1.3em] opacity-60 py-[10px] w-auto h-auto font-fraunces72  bg-hero bg-[#e4ded5] text-[#e4ded5] bg-clip-text text-transparent text-[36px] md:text-[39px] font-semibold  ">
                             Full-service design support that growing B2B and non-profit organizations need. Are you strained because you should have a design team but you don{"'"}t?
-                        </span>  
+                        </div>  
                         <div className="hidden md:block">
                             <Button>
                                 <span>
@@ -29,8 +29,8 @@ export default function Hero(){
                             </span>
                         </Button>
                     </div>
-                    <div>
-                        <img src="/getcozy.png" alt="get cozy" />
+                    <div className="-mb-[240px] mt-[80px] lg:w-1/2 lg:m-0">
+                        <img className="min-w-[120%] h-full lg:top-0 lg:static lg:mt-[220px]" src="/getcozy.png" alt="get cozy" />
                     </div>
                 </div>
             </Wrapper>

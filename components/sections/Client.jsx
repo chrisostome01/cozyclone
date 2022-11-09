@@ -3,7 +3,7 @@ import Wrapper from "../ui/Wrapper";
 
 export default function Client() {
     return (
-        <div className="py-[140px] px-6 bg-cozy-gray-100">
+        <div className="py-[140px] lg:px-6 bg-cozy-gray-100">
             <Wrapper className={"max-w-[1200px]"}>
                 <div className="flex flex-col items-center justify-center">
                     <span className="text-[61px] text-[#223240] text-center leading-[65px] mt-[60px] mb-[30px] font-fraunces72">
@@ -11,7 +11,7 @@ export default function Client() {
                     </span>
                     <div className=" w-[40px] h-[4px] bg-[#d4ac8e] mt-[20px] mb-6"></div>
                 </div>
-                <div className="relative w-5/6 mx-auto ">
+                <div className="relative w-full mx-auto lg:w-5/6 ">
                     {/* ===== first client row ====== */}
                     <div className="grid grid-cols-1 lg:grid-cols-2">
                         <div className="m-[15px] bg-hero bg-3.1 self-end py-20 px-10 bg-[#223240] flex flex-col rounded-client-one shadow-client-one">

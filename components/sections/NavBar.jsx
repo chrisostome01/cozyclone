@@ -15,19 +15,19 @@ export default function NavBar() {
                         </Link>    
                     </div>
                     <nav className="hidden md:flex text-cozy-gray-100">
-                        <Link className="px-4 py-7 font-fraunces72 text-[25px] leading-[25px] font-semibold transition-all hover:mt-[-2px]" href={"/"}>
+                        <Link className="px-4 py-7 font-fraunces72 text-[25px] leading-[25px] font-semibold transition-all duration-200 hover:mt-[-2px]" href={"/"}>
                             Get Cozy
                         </Link>
-                        <Link className="px-4 py-7 font-fraunces72 text-[25px] leading-[25px] font-semibold transition-all hover:mt-[-2px]" href={"/"}>
+                        <Link className="px-4 py-7 font-fraunces72 text-[25px] leading-[25px] font-semibold transition-all duration-200 hover:mt-[-2px]" href={"/"}>
                             What we do
                         </Link>
-                        <Link className="px-4 py-7 font-fraunces72 text-[25px] leading-[25px] font-semibold transition-all hover:mt-[-2px]" href={"/"}>
+                        <Link className="px-4 py-7 font-fraunces72 text-[25px] leading-[25px] font-semibold transition-all duration-200 hover:mt-[-2px]" href={"/"}>
                             Our work
                         </Link>
-                        <Link className="px-4 py-7 font-fraunces72 text-[25px] leading-[25px] font-semibold transition-all hover:mt-[-2px]" href={"/"}>
+                        <Link className="px-4 py-7 font-fraunces72 text-[25px] leading-[25px] font-semibold transition-all duration-200 hover:mt-[-2px]" href={"/"}>
                             The blog
                         </Link>
-                        <Link className="px-4 py-7 font-fraunces72 text-[25px] leading-[25px] font-semibold transition-all hover:mt-[-2px]" href={"/"}>
+                        <Link className="px-4 py-7 font-fraunces72 text-[25px] leading-[25px] font-semibold transition-all duration-200 hover:mt-[-2px]" href={"/"}>
                             Say hi
                         </Link>
                     </nav>

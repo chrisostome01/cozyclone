@@ -39,7 +39,7 @@ export default function Footer() {
                 </Wrapper>
             </div>
             <div className="relative flex items-center justify-center w-full lg:h-[500px] overflow-hidden py-10 px-5">
-                <video className="absolute top-0 right-0 object-cover w-full h-full -z-10" playsInline  autoPlay loop >
+                <video className="absolute top-0 right-0 object-cover w-full h-full -z-10" playsInline muted  autoPlay loop >
                     <source className="min-w-full" src="/video/overlay.mp4" />
                 </video>                
                 <div className="absolute top-0 right-0 z-30 w-full h-full py-1 bg-black/70 bg-25 "></div>
@@ -47,7 +47,7 @@ export default function Footer() {
                     <div className="w-[120px]">
                         <img src="/icons/lockup.svg" alt="ssdd logo" />
                     </div>
-                    <div className="text-[#e4ded5]  lg:pl-[100px] px-[40px] ">
+                    <div className="text-cozy-gray-100  lg:pl-[100px] px-[40px] ">
                         <div className="text-[48px] leading-[1.1em] mt-12 font-fraunces72 mb-6">
                             <em>Psst…</em> 
                             <br></br>
@@ -76,7 +76,7 @@ export default function Footer() {
                     </p>
                 </Wrapper>
             </div>
-            <div className="border border-t-[#e2e7fb] bg-[#e4ded5] pt-[48px] pb-[24px]">
+            <div className="border border-t-[#e2e7fb] bg-cozy-gray-100 pt-[48px] pb-[24px]">
                 <Wrapper>
                     <div className="flex flex-col items-center justify-center lg:flex-row">
                         <div className="py-5 px-[15px] mr-[56px] ml-[15px] ">

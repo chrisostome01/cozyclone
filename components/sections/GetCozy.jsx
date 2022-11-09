@@ -4,7 +4,7 @@ import Wrapper from "../ui/Wrapper";
 
 export default function GetCozy() {
     return (
-        <div className="bg-cozy bg-[#e4ded5] px-2 top-0 relative bg-dope">
+        <div className="bg-cozy bg-cozy-gray-100 px-2 top-0 relative bg-dope">
             <Wrapper className={"px-0 pl-5 md:pl-5"}>           
                 <div className="py-6.25 flex flex-col lg:flex-row ">
                     <div className="lg:pl-[10vh] lg:w-[800px]  2xl:pl-[20vh]">

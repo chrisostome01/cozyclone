@@ -11,7 +11,7 @@ export default function Hero(){
                         <h1 className="mt-[80px] py-[10px] mb-[20px] font-fraunces144 font-black leading-[1.1em] bg-[#d4ac8e] bg-hero text-[60px] md:text-[80px] bg-clip-text text-transparent ">
                             Your design team for the cost of a salary.
                         </h1>
-                        <div className="my-[20px] leading-[1.3em] opacity-60 py-[10px] w-auto h-auto font-fraunces72  bg-hero bg-[#e4ded5] text-[#e4ded5] bg-clip-text text-transparent text-[36px] md:text-[39px] font-semibold  ">
+                        <div className="my-[20px] leading-[1.3em] opacity-60 py-[10px] w-auto h-auto font-fraunces72  bg-hero bg-cozy-gray-100 text-cozy-gray-100 bg-clip-text text-transparent text-[36px] md:text-[39px] font-semibold  ">
                             Full-service design support that growing B2B and non-profit organizations need. Are you strained because you should have a design team but you don{"'"}t?
                         </div>  
                         <div className="hidden md:block">

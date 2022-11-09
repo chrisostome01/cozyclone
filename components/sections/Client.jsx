@@ -114,7 +114,7 @@ export default function Client() {
                         </div>
                     </div>
                     <div className="absolute left-0 right-0 z-40  m-auto -translate-y-1/2 top-[58%] w-28 h-28 border border-cozy-gray-100 rounded-full p-[1px] hidden lg:flex items-center justify-center shadow-circle">
-                        <div className="flex items-center justify-center w-20 h-20 bg-cozy-gray-100 rounded-full shadow-circle">
+                        <div className="flex items-center justify-center w-20 h-20 rounded-full bg-cozy-gray-100 shadow-circle">
                             <img src="/icons/chat-icon.svg" alt="chat icon" />
                         </div>
                     </div>

@@ -39,7 +39,7 @@ export default function Footer() {
                 </Wrapper>
             </div>
             <div className="relative flex items-center justify-center w-full lg:h-[500px] overflow-hidden py-10 px-5">
-                <video className="absolute top-0 right-0 object-cover w-full h-full -z-10" playsInline muted  autoPlay loop >
+                <video className="absolute top-0 right-0 object-cover w-full h-full -z-10" muted  autoPlay loop >
                     <source className="min-w-full" src="/video/overlay.mp4" />
                 </video>                
                 <div className="absolute top-0 right-0 z-30 w-full h-full py-1 bg-black/70 bg-25 "></div>

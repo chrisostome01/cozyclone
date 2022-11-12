@@ -12,7 +12,7 @@ export default function Brand() {
             <div className="flex flex-col items-center justify-center gap-10">
                 <div>
                     <img className="w-[140px] h-[140px]" src="/cozy/vector.svg" alt="brand" />
-                    <p className=" text-[#2d4850] text-[14px] font-bold text-center font-opensans">BBB rating: A+</p>                
+                    <p className=" text-cozy-brack-200 text-[14px] font-bold text-center font-opensans">BBB rating: A+</p>                
                 </div>
                 <img className="w-[140px] h-[140px]" src="/cozy/rate.webp" alt="brand" />
                 <img className="w-[120px] h-[160px]" src="/cozy/vista-badge.png" alt="brand" />

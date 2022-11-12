@@ -3,26 +3,26 @@ import Wrapper from "../ui/Wrapper";
 
 export default function Client() {
     return (
-        <div className="py-[140px] lg:px-6 bg-cozy-gray-100">
-            <Wrapper className={"max-w-[1200px]"}>
+        <div className="py-31 lg:px-6 bg-cozy-gray-100">
+            <Wrapper className={"max-w-75"}>
                 <div className="flex flex-col items-center justify-center">
-                    <span className="text-[61px] text-[#223240] text-center leading-[65px] mt-[60px] mb-[30px] font-fraunces72">
+                    <span className="text-[61px] text-cozy-brack-100 text-center leading-[65px] mt-[60px] mb-[30px] font-fraunces72">
                         ❤️ from our clients
                     </span>
-                    <div className=" w-[40px] h-[4px] bg-[#d4ac8e] mt-[20px] mb-6"></div>
+                    <div className=" w-[40px] h-[4px] bg-cozy-gray-900 mt-[20px] mb-6"></div>
                 </div>
                 <div className="relative w-full mx-auto lg:w-5/6 ">
                     {/* ===== first client row ====== */}
                     <div className="grid grid-cols-1 lg:grid-cols-2">
-                        <div className="m-[15px] bg-hero bg-3.1 self-end py-20 px-10 bg-[#223240] flex flex-col rounded-client-one shadow-client-one">
+                        <div className="m-0.9 bg-hero bg-3.1 self-end py-20 px-10 bg-cozy-brack-100 flex flex-col rounded-client-one shadow-client-one">
                             {/* profile */}
                             <img className="w-20 h-20 mb-6 border-4 border-white rounded-[20px] self-center" src="/profile/susie.webp" alt="client profile" />                           
                             {/* title */}
-                            <div className="text-[#d4ac8e] mt-6 font-fraunces72 font-semibold text-right">
+                            <div className="mt-6 font-semibold text-right text-cozy-gray-900 font-fraunces72">
                                 “One of the top design professionals…”
                             </div>
                             {/* description */}
-                            <div className="mb-[15px] text-cozy-gray-100 font-normal font-fraunces72 leading-[1.6em] text-[18px] text-right">
+                            <div className="mb-0.9 text-cozy-gray-100 font-normal font-fraunces72 leading-[1.6em] text-[18px] text-right">
                                 I connect with hundreds of talented folks
                                 on a regular basis, and I can say with 
                                 complete confidence that Lee is one of
@@ -40,15 +40,15 @@ export default function Client() {
                             </div>
                         </div>
                         <div className="lg:pr-[100px]">
-                            <div className="m-[15px] bg-hero bg-3.1 py-20 px-10 bg-[#2d4850] flex flex-col rounded-client-two shadow-client-two">
+                            <div className="m-0.9 bg-hero bg-3.1 py-20 px-10 bg-cozy-brack-200 flex flex-col rounded-client-two shadow-client-two">
                                 {/* profile */}
                                 <img className="w-20 h-20 mb-6 border-4 border-white rounded-[20px] self-center" src="/profile/susie.webp" alt="client profile" />                           
                                 {/* title */}
-                                <div className="text-[#d4ac8e] mt-6 font-fraunces72 font-semibold text-left">
+                                <div className="mt-6 font-semibold text-left text-cozy-gray-900 font-fraunces72">
                                 “They{"'"}re a very well-rounded organization…”
                                 </div>
                                 {/* description */}
-                                <div className="mb-[15px] text-cozy-gray-100 font-normal font-fraunces72 leading-[1.6em] text-[18px] text-left">
+                                <div className="mb-0.9 text-cozy-gray-100 font-normal font-fraunces72 leading-[1.6em] text-[18px] text-left">
                                     Cost per conversion and all of those metrics have
                                     dropped significantly. We used to pay an average of
                                     $100 per lead that converts… now we have that  down
@@ -70,7 +70,7 @@ export default function Client() {
                     {/* ===== second client row ===== */}
                     <div className="grid grid-cols-1 lg:grid-cols-2">
                         <div className="lg:pl-[100px]" >
-                            <div className="m-[15px] bg-hero bg-3.1 py-20 px-10 bg-[#c47d57] flex flex-col rounded-client-three shadow-client-three">
+                            <div className="m-0.9 bg-hero bg-3.1 py-20 px-10 bg-cozy-gray-800 flex flex-col rounded-client-three shadow-client-three">
                                 {/* profile */}
                                 <img className="w-20 h-20 mb-6 border-4 border-white rounded-[20px] self-end" src="/profile/beb.webp" alt="client profile" />                           
                                 {/* title */}
@@ -78,7 +78,7 @@ export default function Client() {
                                     “They{"'"}re just good people.”
                                 </div>
                                 {/* description */}
-                                <div className="mb-[15px] text-cozy-gray-100 font-normal font-fraunces72 leading-[1.6em] text-[18px] text-right">
+                                <div className="mb-0.9 text-cozy-gray-100 font-normal font-fraunces72 leading-[1.6em] text-[18px] text-right">
                                     They were a pleasure to work with and I{"'"}m really happy with the results. They pretty much nailed it.
                                 </div>
                                 {/* client info */}
@@ -90,22 +90,22 @@ export default function Client() {
                                 </div>
                             </div>
                         </div>
-                        <div className="m-[15px] bg-hero bg-3.1 py-20 px-10 bg-[#b55730] flex flex-col  rounded-client-four shadow-client-four">
+                        <div className="m-0.9 bg-hero bg-3.1 py-20 px-10 bg-cozy-gray-600 flex flex-col  rounded-client-four shadow-client-four">
                             {/* profile */}
                             <img className="w-20 h-20 mb-6 border-4 border-white rounded-[20px] self-start" src="/profile/michael.webp" alt="client profile" />                           
                             {/* title */}
-                            <div className="text-[#d4ac8e] mt-6 font-fraunces72 font-semibold text-left">
+                            <div className="mt-6 font-semibold text-left text-cozy-gray-900 font-fraunces72">
                                 “The project was successful”
                             </div>
                             {/* description */}
-                            <div className="mb-[15px] text-cozy-gray-100 font-normal font-fraunces72 leading-[1.6em] text-[18px] text-left">
+                            <div className="mb-0.9 text-cozy-gray-100 font-normal font-fraunces72 leading-[1.6em] text-[18px] text-left">
                                 They strive to come up with good design, and 
                                 they focus on all the right things. The quality
                                 of their work is high, and all the deliverables 
                                 are very well-organized and professional.
                             </div>
                             {/* client info */}
-                            <div className=" tracking-[4px] uppercase font-bold text-cozy-gray-100 text-left font-geomanist text[12px]">
+                            <div className="tracking-[4px] uppercase font-bold text-cozy-gray-100 text-left font-geomanist text[12px]">
                                 Michael Weisfeld
                             </div>
                             <div className=" font-geomanist text-cozy-gray-100 text-[12px] font-normal text-left">

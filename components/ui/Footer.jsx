@@ -8,9 +8,9 @@ import Wrapper from "./Wrapper";
 export default function Footer() {
     return (
         <div className="">
-            <div className="bg-[#223240]">
+            <div className="bg-cozy-brack-100">
                 <Wrapper className={"flex flex-col items-center justify-center"}>
-                    <span className="font-normal text-[#d4ac8e] opacity-80 font-fraunces72 text-[30px] leading-[1.1em] tracking-[.4px] mx-auto mt-[60px]">
+                    <span className="font-normal text-cozy-gray-900 opacity-80 font-fraunces72 text-[30px] leading-[1.1em] tracking-[.4px] mx-auto mt-[60px]">
                         More than 150 happy clients
                     </span>
                     <div className="py-[32px] px-2 flex flex-wrap lg:flex-nowrap justify-center">
@@ -55,7 +55,7 @@ export default function Footer() {
                         </div>
                         <div className="lg:w-[720px]  font-fraunces72 text-[20px] leading-[1.6em] font-normal">
                             Consider joining our {" "}
-                            <Link className="text-[#d90f54] font-fraunces72 text-[20px] leading-[1.6em] font-normal" href={"/"}>
+                            <Link className="text-danger-100 font-fraunces72 text-[20px] leading-[1.6em] font-normal" href={"/"}>
                                 San Diego Design Designers
                             </Link> {" "}
                             group. More than 700 people, 
@@ -69,21 +69,21 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#b55730]">
+            <div className="bg-cozy-gray-600">
                 <Wrapper>
-                    <p className="text-center py-14 px-[53px] text-[#d4ac8e] text-[48px] font-fraunces72 font-black">
+                    <p className="text-center py-14 px-[53px] text-cozy-gray-900 text-[48px] font-fraunces72 font-black">
                         🙋 How can we help?
                     </p>
                 </Wrapper>
             </div>
-            <div className="border border-t-[#e2e7fb] bg-cozy-gray-100 pt-[48px] pb-[24px]">
+            <div className="border border-t-cozy-brack-300 bg-cozy-gray-100 pt-[48px] pb-[24px]">
                 <Wrapper>
                     <div className="flex flex-col items-center justify-center lg:flex-row">
-                        <div className="py-5 px-[15px] mr-[56px] ml-[15px] ">
+                        <div className="py-5 px-[15px] mr-[56px] ml-0.9 ">
                             <img className="w-[72px]" src="/footerLogo.svg" alt="Footer logo" />
                         </div>
                         <div className="flex flex-col items-center justify-center text-center lg:justify-between lg:flex-grow lg:flex-row">
-                            <ul className="flex flex-col lg:flex-row justify-center items-center text-[#b55730]">
+                            <ul className="flex flex-col lg:flex-row justify-center items-center text-cozy-gray-600">
                                 <li className="mr-[20px] lg:mr-[32px] py-[4px] text-[11px] font-bold leading-[1.2rem]">
                                     <Link href={"/"}>
                                         About
@@ -110,24 +110,24 @@ export default function Footer() {
                                     </Link>
                                 </li>                      
                             </ul> 
-                            <div className="text-[#d90f54] flex items-center flex-col lg:flex-row">
+                            <div className="text-danger-100 flex items-center flex-col lg:flex-row">
                                 <div className="flex">
                                     <img className="w-[20px] h-[20px] lg:ml-[16px]" src="/icons/sddd.webp" alt="dash icon" />
                                     <span>San Diego Digital Designers</span>
                                 </div>
                                 <div className="lg:pl-[40px] flex">
-                                    <Icon bg={"bg-[#1da1f2]"} icon="/twitter.svg"  />
-                                    <Icon bg={"bg-[#2977c9]"} icon="/linkedin.svg"  />
-                                    <Icon bg={"bg-[#4267b2]"} icon="/facebook.svg"  />
-                                    <Icon bg={"bg-[#e4405f]"} icon="/instagram.svg"  />
-                                    <Icon bg={"bg-[#c4302b]"} icon="/youtube.svg"  />
-                                    <Icon bg={"bg-[#16313a]"} icon="/clutch.svg"  />
-                                    <Icon bg={"bg-[#223240]"} icon="/envelope.svg"  />
+                                    <Icon bg={"bg-icons-1"} icon="/twitter.svg"  />
+                                    <Icon bg={"bg-icons-2"} icon="/linkedin.svg"  />
+                                    <Icon bg={"bg-icons-3"} icon="/facebook.svg"  />
+                                    <Icon bg={"bg-icons-4"} icon="/instagram.svg"  />
+                                    <Icon bg={"bg-icons-5"} icon="/youtube.svg"  />
+                                    <Icon bg={"bg-icons-6"} icon="/clutch.svg"  />
+                                    <Icon bg={"bg-cozy-brack-100"} icon="/envelope.svg"  />
                                 </div>
                             </div>                       
                         </div>
                     </div>
-                    <div className="border-[#d4ac8e] border-t-2 mt-[40px] px-[15px]  flex items-center justify-between flex-col lg:flex-row">
+                    <div className="border-cozy-gray-900 border-t-2 mt-[40px] px-[15px]  flex items-center justify-between flex-col lg:flex-row">
                         <div className="flex items-center justify-center lg:justify-start gap-[40px] flex-wrap">
                             <span>
                                 <img className="w-[140px] h-[140px]" src="/cozy/vector.svg" alt="brand" />          
@@ -140,14 +140,14 @@ export default function Footer() {
                             </span>
                         </div>
                         <div className="flex items-center gap-[40px] flex-col lg:flex-row">
-                            <div className="lg:flex lg:gap-[3px]  lg:text-[13px]  text-[#223240] font-normal lg:mr-4 font-fraunces72">
+                            <div className="lg:flex lg:gap-[3px]  lg:text-[13px]  text-cozy-brack-100 font-normal lg:mr-4 font-fraunces72">
                                 <span>Made with </span> {" "}
                                 <span className="">
                                     <FontAwesomeIcon icon={faHeart} className="block text-red-500 cursor-pointer  text-[12px]" />
                                 </span>{" "}                                   
                                 <span> in beautiful, sunny San Diego. ©2021</span>
                             </div>
-                            <ul className="flex text-[#b55730]">
+                            <ul className="flex text-cozy-gray-600">
                                 <li className="mr-[20px] lg:mr-[32px] py-[4px] text-[11px] font-bold leading-[1.2rem]">
                                     <Link href={"/"}>
                                         Privacy

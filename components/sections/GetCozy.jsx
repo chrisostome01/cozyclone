@@ -9,19 +9,19 @@ export default function GetCozy() {
                 <div className="py-6.25 flex flex-col lg:flex-row ">
                     <div className="lg:pl-[10vh] lg:w-[800px]  2xl:pl-[20vh]">
                         <div className="flex flex-col">
-                            <h2 className="text-3xl text-[#223240]  tracking-[0.125rem] mb-4">
+                            <h2 className="text-3xl text-cozy-brack-100  tracking-[0.125rem] mb-4">
                                 🌴🐻🇺🇸
                             </h2>
-                            <div className="text-[#223240] leading-[1.1em] font-fraunces72 text-[70px] font-semibold mt-[40px] mb-[10px]">
+                            <div className="text-cozy-brack-100 leading-[1.1em] font-fraunces72 text-[70px] font-semibold mt-[40px] mb-[10px]">
                                 Get Cozy
                             </div>                    
-                            <div className="text-[#c47d57] font-fraunces72 leading-[54px] text-[37px] font-normal">
+                            <div className="text-cozy-gray-800 font-fraunces72 leading-[54px] text-[37px] font-normal">
                                 Design & digital marketing
                                 <br></br>
                                 in San Diego, California
                             </div>
-                            <div className="mt-[40px] opacity-90 mb-[25px] font-normal font-fraunces72 text-[22px] leading-[1.6em] text-[#223240]">
-                                <p className="mb-[15px]">
+                            <div className="mt-[40px] opacity-90 mb-[25px] font-normal font-fraunces72 text-[22px] leading-[1.6em] text-cozy-brack-100">
+                                <p className="mb-0.9">
                                     We{"'"}re an award-winning design shop based in South Park, San Diego.
                                     We efficiently combine the best parts of user experience (UX) with
                                     creative design and execution to create effective collateral that 
@@ -29,7 +29,7 @@ export default function GetCozy() {
                                     <br></br>
                                     
                                 </p>
-                                <p className="mb-[15px]">
+                                <p className="mb-0.9">
                                     No epic quests for inspiration. Just pragmatic collaboration and 
                                     efficient results from big-agency graduates with decades of experience.
                                     <br></br>
